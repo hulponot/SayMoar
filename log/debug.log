@@ -119,3 +119,8 @@
 2016-09-12 22:29:58 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
 2016-09-12 22:31:03 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
 2016-09-12 22:59:01 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 23:44:46 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 23:45:22 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 23:46:05 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 23:47:01 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 23:47:18 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
