@@ -1,0 +1,121 @@
+2016-09-10 20:05:28 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:05:37 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:06:36 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:07:51 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:08:50 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:08:57 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:12:53 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:13:46 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:14:56 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:14:57 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:15:36 - critical - Route not found SayMoar::Feed::get_feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:16:40 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:19 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:20 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:20 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:20 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:20 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:21 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:21 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:21 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:20:28 - info - 127.0.0.1 - GET /home - SayMoar::home
+2016-09-10 20:20:51 - info - 127.0.0.1 - GET /home - SayMoar::home
+2016-09-10 20:20:54 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 20:22:04 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-10 21:37:03 - info - 127.0.0.1 - GET /home - SayMoar::home
+2016-09-10 21:39:10 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:05:30 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:05:39 - info - 127.0.0.1 - GET /config - CODE(0x27952d8)
+2016-09-11 12:06:32 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:06:41 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:06:45 - info - 127.0.0.1 - GET /config - CODE(0x29d24a0)
+2016-09-11 12:14:11 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:14:58 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:14:58 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:14:59 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:14:59 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:14:59 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:20:51 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:20:52 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:20:52 - critical - Route not found SayMoar::Feed::feed for / at /home/hulponot/perl5/lib/perl5/Kelp/Routes.pm line 188.
+
+2016-09-11 12:45:48 - info - 127.0.0.1 - GET / - SayMoar::Controller::Feed::feed
+2016-09-11 12:46:08 - critical - Can't locate object method "feed" via package "SayMoar::Controller::Feed" at /home/hulponot/perl5/lib/perl5/Kelp/Routes/Controller.pm line 19.
+
+2016-09-11 12:46:23 - info - 127.0.0.1 - GET / - SayMoar::Controller::Feed::feed
+2016-09-11 23:56:27 - info - 127.0.0.1 - GET / - SayMoar::Controller::Feed::feed
+2016-09-12 21:45:39 - critical - Can't locate object method "render" via package "SayMoar::Controller::User" at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 21:46:00 - critical - Can't locate object method "render" via package "SayMoar::Controller::User" at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 21:46:01 - critical - Can't locate object method "render" via package "SayMoar::Controller::User" at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 21:46:01 - critical - Can't locate object method "render" via package "SayMoar::Controller::User" at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 21:46:01 - critical - Can't locate object method "render" via package "SayMoar::Controller::User" at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 21:46:01 - critical - Can't locate object method "render" via package "SayMoar::Controller::User" at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 21:46:08 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:46:09 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:46:26 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:46:46 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:47:07 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:47:08 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:52:29 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:52:30 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:52:35 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 21:52:36 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:00:17 - critical - Can't locate object method "info" via package "get_logger" (perhaps you forgot to load "get_logger"?) at lib/SayMoar/Controller/User.pm line 9.
+
+2016-09-12 22:00:58 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:06:31 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:06:32 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:06:35 - info - 127.0.0.1 - GET / - SayMoar::Controller::home
+2016-09-12 22:06:39 - info - 127.0.0.1 - GET / - SayMoar::Controller::home
+2016-09-12 22:07:15 - info - 127.0.0.1 - GET / - SayMoar::Controller::home
+2016-09-12 22:07:54 - info - 127.0.0.1 - GET / - SayMoar::Controller::home
+2016-09-12 22:07:57 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:08:30 - info - 127.0.0.1 - GET / - SayMoar::Controller::home
+2016-09-12 22:08:30 - info - 127.0.0.1 - GET / - SayMoar::Controller::home
+2016-09-12 22:08:35 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:28:39 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:28:40 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:29:10 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:29:58 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:31:03 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile
+2016-09-12 22:59:01 - info - 127.0.0.1 - GET /profile - SayMoar::Controller::User::profile

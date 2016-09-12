@@ -1,0 +1,5 @@
+<link href="/public/style.css" rel="stylesheet" >
+<div class="main_card">
+hello there.
+my name is [% name %]
+</div>
