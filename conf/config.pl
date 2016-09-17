@@ -1,6 +1,7 @@
 # Common settings
 {
     modules      => [qw/Template JSON Logger/],
+    middleware      => [qw/Static Session/],
     modules_init => {
 
         # One log for errors and one for debug
@@ -41,11 +42,13 @@
             router => 'Controller'
         }
     },
-    middleware      => [qw/Static/],
     middleware_init => {
         Static => {
             path => qr{^/public/},
             root => '.',
+        },
+        Session => {
+            store => 'File'
         }
-    }
+    },
 };

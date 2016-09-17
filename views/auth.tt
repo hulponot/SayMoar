@@ -1,0 +1,12 @@
+<link href="/public/style.css" rel="stylesheet" >
+
+<div class='auth'>
+    <h3>Authorization:</h3>
+    <form method='POST' name="auth" action="user">
+        <input name='username' type="text">
+        <p>
+        <input name='password' type="password">
+        <p>
+        <input type="submit" value="ok">
+    </form>
+</div>
