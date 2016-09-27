@@ -8,17 +8,13 @@ use Kelp::Base 'SayMoar::Controller';
 
 sub show {
     my $self = shift;
-    my $list = [ "abcd", "efg", "123"];
-    for (@$list){
-        $self->wall_db->db_put('post', $_);
-    }
-    undef $list;
-    my ($key,$value) = ('post','');
-    my $cursor = $self->wall_db->db_cursor;
-    while ( $cursor->c_get($key,$value, DB_NEXT) == 0 ){
-        push @$list,$value;
-    }
-    $self->template('wall', {one => 1, list => $list });
+    my $name = $self->named->{name};
+
+    $self->template('wall', {one => 1, name => $name,});
 }
 
+sub resolve_user {
+    my $self = shift;
+    $self->res->redirect_to("/wall/" . ($self->param('name') || $self->session->{user} || 'default'));
+}
 1;

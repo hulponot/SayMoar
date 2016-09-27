@@ -4,12 +4,14 @@ body{
 .main_card{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
-    margin-top: 2%;
     margin-left: 10%;
 }
 
+.main_auth {
+    width: 240px;
+    height: 320px;
+}
 .auth {
-    margin-top: 2%;
     margin-left: 10%;
 }
 
@@ -18,4 +20,42 @@ body{
     color: black;
     margin-top: 2%;
     margin-left: 10%;
+}
+
+ul.tab {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {background-color: #ddd;}
+
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.auth_tab {
+    display: none;
+    padding: 6px 12px;
+}
+
+.title-field {
+    height: auto;
+}
+.text-field {
+    height: 50;
 }

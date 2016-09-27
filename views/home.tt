@@ -1,5 +1,5 @@
 Hello, world!
-<form method="get" name="username" action="profile">
+<form method="get" name="username" action="wall">
     <input name='name' type="text">
     <input type="submit" value="ok">
 </form>

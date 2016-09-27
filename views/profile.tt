@@ -4,3 +4,20 @@
     hello there.
     my name is [% name %]
 </div>
+
+<h2>User posts</h2>
+
+[% IF me%]
+<h4>Write new one</h4>
+<div class="new-post" >
+    <form class="new-post new-post-form" method="POST">
+        <input class="title-field" name='title' type="text"><p>
+        <input class="text-field" name='text' type="text"><p>
+        <input type="submit" value="Post yours new text">
+    </form>
+</div>
+[% END %]
+
+[% FOREACH header IN headers %]
+<a href='/text/[% header %]'>[% header %]</a> <p>
+[% END %]

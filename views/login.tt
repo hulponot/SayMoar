@@ -1,0 +1,37 @@
+<link href="/public/style.css" rel="stylesheet" >
+<script src="/public/script.js"></script>
+<div class="main_auth">
+    <div class='warning'>
+        [% warning %]
+    </div>
+    <h2>
+        <ul class="tab">
+            <li><a href='#' class="tablinks active" onclick="login_tabs(event,'auth')"> Login </a> </li>
+            <li><a href='#' class="tablinks" onclick="login_tabs(event,'reg')"> Registrarion </a> </li>
+        </ul>
+    </h2>
+    <div id='auth' class='auth_tab' style="display:block;">
+        <form method='POST' name="auth" action="login">
+            <input name='user' type="text">
+            <p>
+            <input name='pass' type="password">
+            <p>
+            <input type="submit" value="ok">
+        </form>
+    </div>
+
+    <div id='reg' class='auth_tab'>
+        <form method='POST' name="auth" action="reg">
+            username for registration
+            <input name='user' type="text">
+            <p>
+            <input name='pass' type="password">
+            <p>
+            <input type="submit" value="ok">
+        </form>
+    </div>
+</div>
+
+[% FOREACH name IN users %]
+<a href='/profile/[% name %]'>[% name %]</a>
+[% END %]

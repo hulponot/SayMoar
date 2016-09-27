@@ -48,7 +48,8 @@
             root => '.',
         },
         Session => {
-            store => 'File'
+            store => 'File',
+            dir => 'session'
         }
     },
 };
