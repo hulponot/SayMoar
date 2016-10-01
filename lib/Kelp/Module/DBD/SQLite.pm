@@ -28,6 +28,15 @@ sub build {
                 owner INTEGER,
                 FOREIGN KEY(owner) REFERENCES users(id)
             )");
+    $dbh->do("CREATE TABLE IF NOT EXISTS comments(
+                id INTEGER PRIMARY KEY,
+                epoch INTEGER,
+                text TEXT,
+                post INTEGER,
+                owner INTEGER,
+                FOREIGN KEY(post) REFERENCES posts(id),
+                FOREIGN KEY(owner) REFERENCES users(id)
+            )");
     $self->register(main_db => $dbh);
 }
 

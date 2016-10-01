@@ -30,11 +30,11 @@ sub auth {
 sub login {
     my $self = shift;
     my ($war_id,$war_msg) = ($self->param('warning'), '');
-    $war_msg = $NO_USER_MSG if $war_id == $NO_USER_ERROR;
-    $war_msg = $USER_EXISTS_MSG if $war_id == $USER_EXISTS_ERROR;
-    $war_msg = $PASSWORD_TOO_WEEK_MSG if $war_id == $PASSWORD_TOO_WEEK_ERROR;
-    $war_msg = $NO_USER_EXISTS_MSG if $war_id == $NO_USER_EXISTS_ERROR;
-    $war_msg = $WRONG_PASS_MSG if $war_id == $WRONG_PASS_ERROR;
+    $war_msg = $NO_USER_MSG if $war_id eq $NO_USER_ERROR;
+    $war_msg = $USER_EXISTS_MSG if $war_id eq $USER_EXISTS_ERROR;
+    $war_msg = $PASSWORD_TOO_WEEK_MSG if $war_id eq $PASSWORD_TOO_WEEK_ERROR;
+    $war_msg = $NO_USER_EXISTS_MSG if $war_id eq $NO_USER_EXISTS_ERROR;
+    $war_msg = $WRONG_PASS_MSG if $war_id eq $WRONG_PASS_ERROR;
 
     my $hash = $self->main_db->selectall_hashref("SELECT * FROM users", 'id');
     my $users;
@@ -111,5 +111,12 @@ sub __pass_handler {
 
 sub __token_gen {
     return makerandom_octet(Size => 512, Strength => 1);
+}
+sub logout {
+    my $self = shift;
+    $self->session->{token} = undef;
+    $self->session->{name} = undef;
+    $self->session->{id} = undef;
+    $self->res->redirect_to('/profile', {},303);
 }
 1;

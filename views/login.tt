@@ -35,3 +35,5 @@
 [% FOREACH name IN users %]
 <a href='/profile/[% name %]'>[% name %]</a>
 [% END %]
+<p>
+<a href='/logout'>logout</a>

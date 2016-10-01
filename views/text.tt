@@ -1,0 +1,20 @@
+[% text %]
+
+<h3> Comments: </h3>
+
+[% FOREACH comment IN comments %]
+<b>[% comment.username %]</b>:
+[% comment.epoch %]
+[% comment.text %]
+<p>
+[% END %]
+
+
+<h4>Write comment: </h4>
+<div class="new-post" >
+    <form class="new-post new-post-form" method="POST">
+        <input class="text-field" name='comment' type="text"><p>
+        <input type="submit" value="Post comment">
+    </form>
+</div>
+<a href='/logout'>logout</a>

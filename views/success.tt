@@ -1,1 +1,2 @@
 [% message %]
+<a href='/profile/[% name %]'>to my new page</a>

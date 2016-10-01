@@ -18,6 +18,7 @@
 </div>
 [% END %]
 
-[% FOREACH header IN headers %]
-<a href='/text/[% header %]'>[% header %]</a> <p>
+[% FOREACH post IN posts %]
+<a href='/text/[% post.id %]'>[% post.title %]</a> <p>
 [% END %]
+<a href='/logout'>logout</a>

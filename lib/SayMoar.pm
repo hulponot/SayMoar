@@ -6,6 +6,8 @@ use SayMoar::Controller::Wall;
 use SayMoar::Controller;
 use SayMoar::Controller::User;
 
+use Encode qw/ encode decode /;
+
 sub build {
     my $self = shift;
     $self->load_module('DBD::SQLite');
@@ -18,6 +20,9 @@ sub build {
 
     $r->add( '/post', 'wall#post');
 
+    $r->add( '/text/:id', { method => 'GET', to => 'user#text'});
+    $r->add( '/text/:id', { method => 'POST', to => 'user#comment'});
+
     $r->add( '/wall', 'wall#resolve_user');
     $r->add( '/wall/:user', 'wall#show');
 
@@ -25,6 +30,7 @@ sub build {
     $r->add( '/login', {method => 'GET', to => 'auth#login'});
     $r->add( '/login', {method => 'POST', to => 'auth#check'} );
     $r->add( '/reg', {method => 'POST', to => 'auth#registration'} );
+    $r->add( '/logout', {method => 'GET', to => 'auth#logout'} );
     
     $r->add( '/success', 'success' );
 }
@@ -36,7 +42,8 @@ sub home {
 
 sub success {
     my $self = shift;
-    $self->template('success', { message => $self->param('id') || $self->named('id') || 'something successed' });
+    my $name = decode("UTF-8",$self->session->{name});
+    $self->template('success', { message => $self->param('id') || 'something successed', name => $name});
 }
 
 1;
